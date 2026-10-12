@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Stewart\Contracts\Trigger;
 
-/** @internal */
 final class TriggerJson
 {
     /**

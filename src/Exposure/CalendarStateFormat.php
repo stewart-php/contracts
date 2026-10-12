@@ -10,7 +10,6 @@ use DateTimeZone;
 use Stewart\Contracts\Exception\ScheduleException;
 use Stewart\Contracts\Schedule\TimeOfDay;
 
-/** @internal */
 final class CalendarStateFormat
 {
     private const string DATE_FORMAT = 'Y-m-d';

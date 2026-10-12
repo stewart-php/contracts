@@ -6,7 +6,6 @@ namespace Stewart\Contracts\Wire;
 
 use Attribute;
 
-/** @internal */
 #[Attribute(Attribute::TARGET_PARAMETER)]
 final readonly class ListOf
 {

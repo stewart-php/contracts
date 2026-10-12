@@ -28,7 +28,6 @@ use Stewart\Contracts\Service\ServiceTargetSource;
 use Stewart\Contracts\State\Collection\EntityStateCollection;
 use Stewart\Contracts\State\EntityState;
 use Stewart\Contracts\State\EventContext;
-use Stewart\Contracts\State\StateChange;
 use Stewart\Contracts\Time\Duration;
 use Stewart\Contracts\Topic\TopicEvent;
 use Stewart\Contracts\Trigger\Collection\HaTriggerCollection;
@@ -90,8 +89,6 @@ interface HaContext
      * @throws EventFireException
      */
     public function fireEvent(string $eventType, array $data = []): EventContext;
-
-    public function wasCausedByStewart(StateChange|EntityState|HaEvent $subject): bool;
 
     /**
      * @param array<array-key, mixed>|scalar|null $payload

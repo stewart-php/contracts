@@ -1,6 +1,6 @@
 # stewart-php/contracts
 
-Stewart core abstractions. Pure PHP.
+Stewart core abstractions. Pure PHP and one cron parser.
 
 ```bash
 composer require stewart-php/contracts
